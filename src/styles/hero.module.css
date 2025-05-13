@@ -1,0 +1,30 @@
+.hero{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/hero-background.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    color: white;
+  }
+  
+  .hero h1{
+    font-size: 60px;
+    color: white;
+  }
+
+  @media(max-width: 474px){
+      .hero{
+        height: 400px;
+      }
+  }
+
+  @media(max-width: 366px){
+    .hero h1{
+      font-size: 45px;
+    }
+  }
