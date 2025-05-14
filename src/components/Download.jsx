@@ -7,7 +7,7 @@ export const DownloadSection = () => {
     const download = () => {
         const link = document.createElement('a');
         link.href = '/APP.zip';
-        link.download = 'APP.zip';
+        link.download = 'StudyFlow.zip';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
